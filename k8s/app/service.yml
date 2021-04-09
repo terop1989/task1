@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask01-service
+  namespace: flask
+  labels:
+    service: flask01
+
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: 5000
+    name: http-flask
+  selector:
+    app: flask01

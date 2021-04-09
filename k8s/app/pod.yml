@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: flask01-pod
+  namespace: flask
+  labels:
+    app: flask01
+
+spec:
+  containers:
+    - name: flask
+      image: terop1989/flask-test:v1
+      ports:
+        - containerPort: 5000
