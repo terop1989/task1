@@ -16,4 +16,4 @@
 ![настройки запросов](https://github.com/terop1989/task1/blob/master/screenshots/query.png)
 
 Настройки алерта  
-![настройки алерта](https://github.com/terop1989/task1/screenshots/alert.png)
+![настройки алерта](https://github.com/terop1989/task1/blob/master/screenshots/alert.png)
