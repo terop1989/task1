@@ -10,10 +10,10 @@
    - Запустите скрипт app_load.py
 
 График HTTP-запросов с алертом
-![alt text](https://github.com/terop1989/flask-prometheus/blob/master/screenshots/graph.png)
+![график](https://github.com/terop1989/flask-prometheus/blob/master/screenshots/graph.png)
 
 Настройки запросов для выборки данных графика и алерта
-![alt text](https://github.com/terop1989/flask-prometheus/blob/master/screenshots/query.png)
+![настройки запросов](https://github.com/terop1989/flask-prometheus/blob/master/screenshots/query.png)
 
 Настройки алерта
-![alt text](https://github.com/terop1989/flask-prometheus/blob/master/screenshots/alert.png)
+![настройки алерта](https://github.com/terop1989/flask-prometheus/blob/master/screenshots/alert.png)
