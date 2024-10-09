@@ -9,11 +9,11 @@
         <внешний IP-адрес Kubernetes> flask01.terop-kuber.com
    - Запустите скрипт app_load.py
 
-График HTTP-запросов с алертом
-![график](https://github.com/terop1989/flask-prometheus/blob/master/screenshots/graph.png)
+График HTTP-запросов с алертом  
+![график](https://github.com/terop1989/task1/blob/master/screenshots/graph.png)
 
-Настройки запросов для выборки данных графика и алерта
-![настройки запросов](https://github.com/terop1989/flask-prometheus/blob/master/screenshots/query.png)
+Настройки запросов для выборки данных графика и алерта  
+![настройки запросов](https://github.com/terop1989/task1/blob/master/screenshots/query.png)
 
-Настройки алерта
-![настройки алерта](https://github.com/terop1989/flask-prometheus/blob/master/screenshots/alert.png)
+Настройки алерта  
+![настройки алерта](https://github.com/terop1989/task1/screenshots/alert.png)
