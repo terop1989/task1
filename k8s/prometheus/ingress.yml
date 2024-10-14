@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: prometheus-ingress
@@ -7,10 +7,13 @@ metadata:
     kubernetes.io/ingress.class: nginx
 spec:
   rules:
-  - host: prometheus.terop-kuber.com
-    http:
-      paths:
-      - backend:
-          serviceName: prometheus-server-alb
-          servicePort: 80
-        path: /
+    - host: "prometheus.terop-kuber.com"
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: prometheus-server-alb
+                port:
+                  name: http-prom
